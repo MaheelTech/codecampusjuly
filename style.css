@@ -1,0 +1,25 @@
+#Adnana{
+    color: purple;
+}
+#Zunayrah{
+    color: greenyellow;
+}
+#Zunurayn{
+    color: aqua;
+}
+#Jamiu{
+    color: blue;
+}
+#Azeez{
+    color: burlywood;
+}
+#Sofiat{
+    color: fuchsia;
+}
+#Kabirat{
+    color: crimson;
+}
+
+.parent>.child1{
+    color: chartreuse;
+}
