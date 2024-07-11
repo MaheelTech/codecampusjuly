@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: red;
+}
+
+/* the style below is a descendant combinator */
+.understand h2{
+    color: blueviolet;
+}
+
+/* the style bellow is a child combinator */
+
+.understand>p{
+    background-color: yellow;
+}
+.coder>p{
+    color: red;
+}
+.coder+h2{
+    background-color: black;
+}
+
+.coder~h2{
+    text-align: center;
+}
+
+.lizzy+h2{
+    background-color: goldenrod;
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 50px;
+}
+
+h1:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 70px;
+
+}
