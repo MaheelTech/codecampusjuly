@@ -1,0 +1,60 @@
+body{
+    background-color: brown;
+}
+h1{
+    color: yellow;
+}
+h2{
+    color: blue;
+}
+p.Amarya{
+    color: cyan;
+}
+p.second-born{
+    color: white;
+} 
+#Youtube{
+    background-color: blue;
+    color: white;
+}
+#Instagram{
+    background-color: green;
+    color: white;
+}
+#Facebook{
+    background-color: black;
+    color: white;
+}
+
+.Hurul p{
+    font-size: 34px;
+    color: rgb(130, 244, 180);
+}
+
+.Kaybee>p{
+    color: rgb(246, 255, 0);
+}
+
+.Bankole>h2{
+    color: blue;
+    background-color: yellow;
+}
+.Bankole>h3{
+    color: red;
+    background-color: white;
+}
+
+h2+h3{
+    font-size: 34px ;
+}
+
+.Bankole p+h3{
+    background-color: black;
+}
+.Bankole h3+h3{
+    background-color: skyblue;
+}
+P+a{
+    color: white;
+
+}
